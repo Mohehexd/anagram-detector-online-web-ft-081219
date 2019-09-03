@@ -3,14 +3,14 @@ class Anagram
   attr_accessor :word 
   
   def initialize(word)
-    @word = word
-  end 
-  
+    @wor
   def match(listen)
       listen.select do |anag|
       (@word.split("").sort) == (anag.split("").sort)
     binding.pry 
-    end
+    endd = word
+  end 
+  
   end
 end 
 
